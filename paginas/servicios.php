@@ -19,7 +19,7 @@
 <div class="container">
 <section class="Sobre Pd my-5">
     <h2 class="text-center my-5">
-        QUE SERVICIOS PRESTAMOS
+        LOS SERVICIOS QUE PRESTAMOS SON LOS SIGUIENTES
     </h2>
     <div class="container">
     <div class="row row-cols-1 row-cols-md-2 g-5">

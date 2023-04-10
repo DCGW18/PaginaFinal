@@ -36,4 +36,24 @@
 
 
     }//Fin else
+
+    if(isset($_POST["btn_validar"]))
+    {
+    
+        $Titulo="";      
+        $nombre=$_POST["tx_nombrecompleto"];
+        $email=$_POST["tx_email"];
+        $ciudad=$_POST["tx_ciudad"];
+        $telefono=$_POST["tx_telefono"];
+        $rol1=$_POST["servicio"];
+        $mensaje=$_POST["tx_mensaje"];
+
+        include("Salidadedatos.php");
+    }
+
+
+
+
+
+
 ?>

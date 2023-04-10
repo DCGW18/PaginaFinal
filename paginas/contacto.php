@@ -13,12 +13,12 @@
     <?php
     include("../modelo/menu.php");
 ?>
-<?php 
-    $ruta_imagenes = "../contenido/imagenes/";
-?>
+
 <div class="container">
 <section>
         <div class="content">
+        <form id="forma" action="contacto.php" method="post" class="p-5">
+        <h3> Formulario </h3>
             <br>
             <h4>Ingresa tus Datos:</h4>
             <br>
@@ -26,19 +26,19 @@
                 <form class="contacto-form">
                     <p>
                         <label>Nombre Completo</label>
-                        <input type="text" name="Nombre Completo">
+                        <input type="text" name="tx_nombre">
                     </p>
                     <p>
                         <label>Email</label>
-                        <input type="email" name="email">
+                        <input type="email" name="tx_email">
                     </p>
                     <p>
                         <label>Ciudad</label>
-                        <input type="text" name="Ciudad">
+                        <input type="text" name="tx_ciudad">
                     </p>
                     <p>
                         <label>Teléfono</label>
-                        <input type="tel" name="Teléfono">
+                        <input type="tel" name="tx_teléfono">
                     </p>
                     <p>
                         <label>¿Qué servicio deseas?</label>
@@ -50,7 +50,7 @@
                     </p>
                     <p>
                         <label>Mensaje</label>
-                        <textarea name="Mensaje" rows="3"></textarea>
+                        <textarea name="tx_mensaje" rows="3"></textarea>
                     </p>
                     <p class="block">
                         <button type="submit">
@@ -59,11 +59,7 @@
                     </p>
                 </form>
 
-                <div class="content-info">
-                    <br>
-                    <h3>Para Más Información</h3>
-
-                    <a
+                   <a
                         href="mailto:diana.gonzalez.wilches@pi.edu.co?subject=Me%20gustaría%20tener%20mayor%20información%20de%20tus%20páginas%20web">
                         <img class="InfImg" src="<?php echo $ruta_imagenes ?>/Correoar.png" width="350" height="250"> </a>
                 </div>
