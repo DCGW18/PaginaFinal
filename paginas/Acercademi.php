@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de Mi</title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../style.css"> 
+    <link rel="stylesheet" href="../contenido/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../contenido/css/style.css"> 
 </head>
 <body>
     <!-- llamar a menu -->
     <?php
     include("../modelo/menu.php");
+?>
+<?php 
+    $ruta_imagenes = "../contenido/imagenes/";
 ?>
 
 <section class="nosotros my-5">
@@ -35,7 +38,7 @@
                     </p>
                 </div>
                 <div class="col-5">
-                    <img class="img-fluid" src="../imagenes/WhatsApp Image 2023-03-13 at 15.02.11.jpeg"
+                    <img class="img-fluid" src="<?php echo $ruta_imagenes ?>WhatsApp Image 2023-03-13 at 15.02.11.jpeg"
                         style="width: 25rem" alt="">
                 </div>
             </div>
@@ -47,6 +50,6 @@
         include("../modelo/footer.php")
     ?>
 
-    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+<script src="../contenido/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>
