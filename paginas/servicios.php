@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mi</title>
+    <link rel="stylesheet" href="../contenido/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../contenido/css/style.css"> 
+</head>
+<body>
+    <!-- llamar a menu -->
+    <?php
+    include("../modelo/menu.php");
+?>
+<?php 
+    $ruta_imagenes = "../contenido/imagenes/";
+?>
+
 <div class="container">
 <h1 class="display-3">
     ESTE ES EL EL CONTENIDO DE LA PAGINA TRES
@@ -24,19 +43,19 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="../imagenes/moviles2.png" class="d-block w-100" height="450px" alt="...">
+                                <img src="<?php echo $ruta_imagenes ?>/moviles2.png" class="d-block w-100" height="450px" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="Titulo">DESARROLLO Y PROGRAMACION</h5>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                                <img src="../imagenes/diseñoweb.JPG" class="d-block w-100" height="450" alt="...">
+                                <img src="<?php echo $ruta_imagenes ?>/diseñoweb.JPG" class="d-block w-100" height="450" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="Titulo">DISEÑO WEB</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../imagenes/LENGUAJES.jpg" class="d-block w-100" height="450" alt="...">
+                                <img src="<?php echo $ruta_imagenes ?>/LENGUAJES.jpg" class="d-block w-100" height="450" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="Titulo">LENGUAJES DE PROGRAMACION</h5>
                                   
@@ -62,3 +81,11 @@
 
 
 </div>
+    <!-- llamar a footer -->
+    <?php 
+        include("../modelo/footer.php")
+    ?>
+
+<script src="../contenido/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

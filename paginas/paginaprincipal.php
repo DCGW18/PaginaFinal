@@ -1,3 +1,6 @@
+<?php 
+    $ruta_imagenes = "../contenido/imagenes/";
+?>
 <section class="Sobre Pd my-5">
     <h2 class="text-center my-5">
         Quienes Somos
@@ -18,7 +21,7 @@
         <div class="row">
             <div class="col-4">
                 <div class="card" style="width: 21rem">
-                    <img src="imagenes/DMvM.gif" class="card-img-top" alt="...">
+                    <img src="<?php echo $ruta_imagenes ?>DMvM.gif" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">MISION</h5>
                         <p class="card-text">Diseñar y brindar la mejor experiencia en todo el ámbito de la programación
@@ -56,7 +59,7 @@
 
             <div class="col-4">
                 <div class="card" style="width: 21rem">
-                    <img src="imagenes/73Gu.gif" class="card-img-top" alt="...">
+                    <img src="<?php echo $ruta_imagenes ?>73Gu.gif" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">VISION</h5>
                         <p class="card-text">
@@ -72,7 +75,7 @@
 
             <div class="col-4">
                 <div class="card" style="width: 21rem">
-                    <img src="imagenes/6h0y.gif" class="card-img-top" alt="...">
+                    <img src="<?php echo $ruta_imagenes ?>6h0y.gif" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">OBJETIVOS</h5>
                         <p class="card-text">1. Convertirnos en una marca lider en el mercado supenando las ventas dia a

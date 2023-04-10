@@ -1,4 +1,7 @@
 
+<?php 
+    $ruta_imagenes = "../contenido/imagenes/";
+?>
 <div class="container bg-black">
     <p class="text-center text-white h4 mt-5"> 
     <footer>
@@ -7,18 +10,19 @@
         <div class="col-3">
           <p class="h5 mb-3">Para pagos</p>
           <div class="mb-2">
-            <a class="text-white text-decoration-none" href="https://www.pse.com.co/persona" target="_blank"><img
-                src="imagenes/pse.JPG" height="70px" width="150px" alt="Pagos pse"></a>
+            <a class="text-white text-decoration-none" href="https://www.pse.com.co/persona" target="_blank">
+              <img src="<?php echo $ruta_imagenes ?>pse.JPG" height="70px" width="150px" alt="Pagos pse">
+            </a>
           </div>
           <div class="mb-2">
             <h5>Pagos Tarjeta de credito</h5>
             <br>
             <a class="text-white text-decoration-none"
               href="https://www.davivienda.com/wps/portal/personas/nuevo/personas/aqui_puedo/pagar_facilmente/pse/"
-              target="_blank"><img src="imagenes/Davivienda.JPG" height="70px" width="150px" alt="Davivienda"></a>
+              target="_blank"><img src="<?php echo $ruta_imagenes ?>Davivienda.JPG" height="70px" width="150px" alt="Davivienda"></a>
             <a class="text-white text-decoration-none"
               href="https://www.bancolombia.com/personas/tarjetas-de-credito?gclid=Cj0KCQjw2cWgBhDYARIsALggUhp7pPyK89grycDGwfOSbNpJ1JCJdl_zUEsoLxIdZShSI7k8Fj1vj_8aAuaYEALw_wcB"
-              target="_blank"><img src="imagenes/bancolombia.JPG" height="70px" width="150px" alt="Bancolombia"></a>
+              target="_blank"><img src="<?php echo $ruta_imagenes ?>bancolombia.JPG" height="70px" width="150px" alt="Bancolombia"></a>
           </div>
         </div>
         <div class="col-4">
@@ -26,14 +30,14 @@
           <br>
           <div class="mb-2">
             <a class="text-white text-decoration-none" href="https://web.whatsapp.com/" target="_blank"><img
-                src="imagenes/wpp.png" height="50px" width="70px" alt="wss"></a>
+                src="<?php echo $ruta_imagenes ?>wpp.png" height="50px" width="70px" alt="wss"></a>
             <a class="text-white text-decoration-none" href="https://www.facebook.com/camila.gonzalez.92102564"
-              target="_blank"><img src="imagenes/Facebook_LOGO.png" height="50px" width="70px" alt="Face"></a>
+              target="_blank"><img src="<?php echo $ruta_imagenes ?>Facebook_LOGO.png" height="50px" width="70px" alt="Face"></a>
             <a class="text-white text-decoration-none" href="https://twitter.com/kmi879" target="_blank"><img
-                src="imagenes/twitter.png" height="50px" width="70px" alt="Face"></a>
+                src="<?php echo $ruta_imagenes ?>twitter.png" height="50px" width="70px" alt="Face"></a>
             <a class="text-white text-decoration-none" href="https://www.instagram.com/cami_gw_/" target="_blank"><img
-                src="imagenes/Insta.png" height="50px" width="70px" alt="Face"></a>
-            <p><img src="imagenes/Yo-removebg-preview.png" width="150px" alt=""></p>
+                src="<?php echo $ruta_imagenes ?>Insta.png" height="50px" width="70px" alt="Face"></a>
+            <p><img src="<?php echo $ruta_imagenes ?>Yo-removebg-preview.png" width="150px" alt=""></p>
           </div>
         </div>
         <div class="col-5">

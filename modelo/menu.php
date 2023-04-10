@@ -10,13 +10,13 @@
                 <a class="nav-link active" aria-current="page" href="Index.php">Incio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Paginas/Acercademi.php">Acerca de Mi</a>
+                <a class="nav-link" href="Acercademi.php">Acerca de Mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Paginas/servicios.php">Servicios</a>
+                <a class="nav-link" href="servicios.php">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Paginas/contacto.php">Contacto & Pagos</a>
+                <a class="nav-link" href="contacto.php">Contacto & Pagos</a>
               </li>
             </ul>
           </div>
