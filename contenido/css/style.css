@@ -5,6 +5,8 @@ body {
     background-size: cover;
     font-family: Comic sans-serif;
     font-size: 22px;
+    background-image: url("../imagenes/17973908.jpg")
+    
 }
 
 .May1l{
@@ -230,12 +232,17 @@ select {
     width: 35px;
 }
 
-.h5,
+
 .card-title
  {
   font-size: 25px;
   text-align: center;
 
+}
+
+.h5{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Titulo{
@@ -268,4 +275,10 @@ select {
     overflow-y: auto;
     position: absolute;
     top: 30%;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 15px 25px #02302e8a;
+-webkit-box-shadow: 0px 0px 15px 25px #02302e8a;
+  -webkit-transform:scale(1.1);transform:scale(1.1);
 }

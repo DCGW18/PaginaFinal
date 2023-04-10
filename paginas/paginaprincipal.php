@@ -2,15 +2,17 @@
     $ruta_imagenes = "../contenido/imagenes/";
 ?>
 <section class="Sobre Pd my-5">
-    <h2 class="text-center my-5">
+    <h2 class="text-center my-5 fs-1">
         Quienes Somos
     </h2>
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <!-- Button trigger modal -->
+                
                 <p>Somos una compañia dedicada a la tranformación, implementacion e innovacion, de diseños, desarrollo y
-                    todo
-                    lo relacionado con la programacion lo encuentras en nuestro equipo.
+                    todo lo relacionado con la programacion lo encuentras en nuestro equipo a continuacion encontraras 
+                    nuestra mision, vision y objetivos.
                 </p>
             </div>
         </div>
@@ -24,35 +26,11 @@
                     <img src="<?php echo $ruta_imagenes ?>DMvM.gif" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">MISION</h5>
-                        <p class="card-text">Diseñar y brindar la mejor experiencia en todo el ámbito de la programación
-                            y
-                            desarrollo
-                        </p>
-                        <!-- Button trigger modal -->
-                        <center><button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                Ver completo
-                            </button>
-                        </center>
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">Mision</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Diseñar y brindar la mejor experiencia en todo el ámbito de la programación y
+                        <p class="card-text">Diseñar y brindar la mejor experiencia en todo el ámbito de la programación y
                                         desarrollo Ofreciendo a nuestros clientes la manera más rápida y eficiente de
                                         poder proyectar y
                                         visualizar el servicio de desean
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -80,7 +58,7 @@
                         <h5 class="card-title text-primary">OBJETIVOS</h5>
                         <p class="card-text">1. Convertirnos en una marca lider en el mercado supenando las ventas dia a
                             dia.
-                            <br>2. Ofrecer todas las alternatias posibles para lograr la satisfaccion del cliente.
+                            <br><br>2. Ofrecer todas las alternatias posibles para lograr la satisfaccion del cliente.
                         </p>
                     </div>
                 </div>
