@@ -256,8 +256,12 @@ select {
 }
 
 .nav-link {
-  color: #ffffff !important;
-  font-size: 17px;
+  color: #fafafa;
+  font-size: 27px;
+}
+
+.nav-link:hover {
+  color: black;
 }
 
 .navbar {
@@ -283,4 +287,7 @@ select {
   -webkit-transform:scale(1.1);transform:scale(1.1);
 }
 
+.imgmarq:hover{
+  -webkit-transform:scale(0.7);transform:scale(0.7);
+}
 
