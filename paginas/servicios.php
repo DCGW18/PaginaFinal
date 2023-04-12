@@ -58,6 +58,21 @@
     </div>
 </div>
 
+<section>
+<h2 class="text-center my-5">
+        Otros Servicios:
+    </h2>
+        <div>
+            <img src="<?php echo $ruta_imagenes ?>/Apps.jpeg" width="150px" height="250px" alt="">
+            <img src="<?php echo $ruta_imagenes ?>/Desarrollo.jpeg" width="150px" height="250px" alt="">
+            <img src="<?php echo $ruta_imagenes ?>/Monitoreo.jpeg" width="150px" height="250px" alt="">
+            <img src="<?php echo $ruta_imagenes ?>/sol.problemas.jpeg" width="150px" height="250px" alt="">
+            <img src="<?php echo $ruta_imagenes ?>/Frontend - Backend.jpeg" width="150px" height="250px" alt="">
+            <img src="<?php echo $ruta_imagenes ?>/optimizar.jpeg" width="150px" height="250px" alt="">
+            <img src="<?php echo $ruta_imagenes ?>/up cloud.jpeg" width="150px" height="250px" alt="">
+        </div>
+</section>
+
 
 
 
