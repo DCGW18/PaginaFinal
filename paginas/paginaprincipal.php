@@ -1,5 +1,5 @@
 <?php 
-    $ruta_imagenes = "../contenido/imagenes/";
+    $ruta_imagenes ="../contenido/imagenes/";
 ?>
 
 <body>

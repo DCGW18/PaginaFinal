@@ -288,6 +288,6 @@ select {
 }
 
 .imgmarq:hover{
-  -webkit-transform:scale(0.7);transform:scale(0.7);
+  -webkit-transform:scale(0.3);transform:scale(0.3);
 }
 

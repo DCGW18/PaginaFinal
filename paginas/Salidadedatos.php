@@ -1,4 +1,4 @@
-<form class="font-monospace p-4" action="index.php" method="post">
+<form class="font-monospace p-4" action="contacto.php" method="post">
     <label for=""> <b>
             <?php echo $Titulo;?>
         </b></label>
@@ -26,7 +26,7 @@
     <br>
     <label for=""> rol1= </label>
     <label for=""> <b>
-            <?php echo$servicio;?>
+            <?php echo$rol1;?>
         </b> </label>
     <br>
     <label for=""> Mensaje </label>
@@ -34,7 +34,4 @@
             <?php echo$mensaje;?>
         </b> </label>
     <br>
-
-    <br>
-    <input type="submit" class="btn btn-dark" name="btn_validar" value="Regresar">
 </form>
